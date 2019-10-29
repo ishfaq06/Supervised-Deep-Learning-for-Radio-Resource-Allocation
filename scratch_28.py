@@ -44,7 +44,7 @@ aw=final_comb.index([1.2,0.8,0.4])
 print("aw----",aw,ln_fl_comb)
 
 
-data_set = np.load("data_set_5c_final.npz")
+data_set = np.load("data_set_5c.npz")
 
 g_data_x = data_set['arr_0'].tolist()
 g_data_y = data_set['arr_1'].tolist()
